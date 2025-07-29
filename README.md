@@ -34,9 +34,8 @@
 ### 🐍 Cobra comendo minhas contribuições
 
 <p align="center">
-  <img src="./github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/PauloHenriquebds/PauloHenriquebds/output/dist/github-contribution-grid-snake.svg" />
 </p>
-
 
 ---
 
