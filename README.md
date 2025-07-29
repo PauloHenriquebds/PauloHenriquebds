@@ -31,6 +31,15 @@
 
 ---
 
+### 🐍 Cobra comendo minhas contribuições
+
+<p align="center">
+  <img src="./github-contribution-grid-snake.svg" />
+</p>
+
+
+---
+
 ### 📫 Contato
 
 <div align="center">
