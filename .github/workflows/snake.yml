@@ -1,0 +1,35 @@
+name: 🐍 Snake Game Contribution Grid
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Gera uma vez por dia
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout do repositório
+        uses: actions/checkout@v3
+
+      - name: 🐍 Gerar cobra comendo contribuições
+        uses: Platane/snk@v3
+        with:
+          github_user_name: PauloHenriquebds
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
+          color_snake: "#800080"  # Cobra roxa
+
+      - name: 🚀 Commit do SVG gerado
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: "Atualiza snake.svg automaticamente 🐍"
+          add: "dist/*.svg"
+
+      - name: 🔄 Push para o repositório
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Atualiza o Snake Game automático
