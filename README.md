@@ -35,5 +35,5 @@
 
 <div align="center">
   <a href="mailto:paulo.henrique0@gmail.com"><img src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a> 
-  <a href="https://www.linkedin.com/in/paulo-henrique-482a38239" target="_blank"><img src="https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/paulohenriquebds1" target="_blank"><img src="https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </div>
